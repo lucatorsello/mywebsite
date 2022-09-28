@@ -3,36 +3,65 @@
     <head>
         <title>Luca's website</title>
         <style>
-            summary {color: rgb(19, 83, 32);}
-            #gitlabel{
-                padding-right:36px;
+            summary { color: rgb(255, 255, 255); font-size:xx-large;}
+            
+            #gitlabel{ padding-right: 22px; }
+            
+            p,h3,label,li{ 
+                color: rgb(252, 252, 252); 
+                font-size: medium; 
+            }
+
+            #opend{background-color: rgb(33, 77, 33);}
+            
+            #skills{color: rgb(111, 15, 15);}
+            body{
+                background-image: url('img/jungle2.jpeg')  ;
             }
         </style>
     </head>
     <body>
         <details>
         <summary>This is me</summary>
+        <div id="opend">
+            <div id="Details">
+                <h3>Personal details</h3>
 
-        <h3>Personal details</h3>
+                <label for="skills">Monkey business</label> 
+                    <progress id="skills" value = "75" max="100">20%</progress>
 
-        <label for="skills">Web dev</label> 
-            <progress id="skills" value = "20" max="100">20%</progress>
+                <br>
 
-        <br>
+                <label id="gitlabel" for="skills2">Eating banana</label> 
+                    <progress id="skills2" value = "99"max="100"></progress>
+            </div>
+            <div>
+                <h3>Education</h3>
+                <ul>
+                    <li>The jungle books</li>
+                    <li>Banana cookbook</li>
+                    <li>How to survive a tiger attack</li>
+                    <li>If i ran rhe rain forest</li>
+                    <li>Quantum machanics for applied 
+                        physics and engineering by Albert Thomas
+                    </li>
+                </ul>
+            </div>  
 
-        <label id="gitlabel" for="skills2">Git</label> 
-            <progress id="skills2" value = "10 max="100"></progress>
-
-        <h3>Education</h3>
-        <h3>Work history</h3>
-        <p>
-            I started working for THG 
-            from 26/9/2022 and i'm currently still employed
-            by the company.
-
-        </p>
-        <img src="/img/monkey.jpeg"/ alt="Monkey img" width="500" height="500">
-        <br>
+            <div id="Work">
+                <h3>Work history</h3>
+                <p>
+                    I started working for THG 
+                    from 26/9/2022 and i'm currently still employed
+                    by the company.
+                </p>
+            </div>
+        </div>
+        <div title="My favourite song">
+            <a href="https://www.youtube.com/watch?v=URxC75G3nJI">My jam</a>
+        </div>
+        <img src="/img/monkey.jpeg" alt="Monkey img" width="300" height="300">
+        
         </details>
 
     
