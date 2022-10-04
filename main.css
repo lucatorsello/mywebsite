@@ -1,16 +1,22 @@
 *{
     margin: 0;
     padding: 0;
+    color: black;
+}
+html{
+    scroll-behavior: smooth;
 }
 header{
-    display: flex;
+    display: block;
     flex-direction: row;
-    font-size: larger;
+    font-size: x-large;
     background-color: rgb(235, 153, 179, 0.5);
     position: fixed;
     top: 0;
     width: 100%;
     text-align: center;
+    font-family: Fredoka;
+    z-index: 1;
     
 }
 .header2{
@@ -23,8 +29,9 @@ header{
 .header3{
     flex: 1;
 }
-h1,p{
-    margin-top: 2rem;
+h1{
+    color: white;
+    margin-top: 3rem;
     text-align: center;
     position: relative;
 }
@@ -40,4 +47,50 @@ body{
     background-image: url("img/pexels-eberhard-grossgasteiger-1670187.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
+    font-family: quicksand;
+}
+
+    
+#work,ul{
+    margin-top: 1rem;
+}
+p{
+    margin-top: 2rem;
+}
+@font-face {
+    font-family: quicksand;
+    src: url(fonts/Quicksand/static/Quicksand-Regular.ttf);
+}
+@font-face {
+    font-family: Fredoka;
+    src: url(fonts/Fredoka_One/FredokaOne-Regular.ttf);
+}
+.centre{
+    margin-top: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    max-width: 50%;
+    height: auto;
+}
+img{
+    filter: blur(2px);
+    z-index: 1;
+}
+img:hover{
+    
+    filter: blur(0px);
+}
+a:hover{
+    font-size: larger;
+    color: rgb(237, 93, 138);
+
+}
+a:link{
+    text-decoration:None;
+}
+a:visited{
+    color: black;
 }
