@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    font-size: larger;
+    background-color: rgb(235, 153, 179, 0.5);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    
+}
+.header2{
+    flex: 1;    
+
+}
+.header1{
+    flex: 1;
+}
+.header3{
+    flex: 1;
+}
+h1,p{
+    margin-top: 2rem;
+    text-align: center;
+    position: relative;
+}
+.describer{
+    margin-top: 2rem;
+    text-align: center;
+    position: relative;
+    background-color: rgb(235, 153, 179, 0.5);
+    margin: 2rem;
+
+}
+body{
+    background-image: url("img/pexels-eberhard-grossgasteiger-1670187.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
